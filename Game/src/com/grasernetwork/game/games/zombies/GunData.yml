@@ -1,0 +1,243 @@
+##################################################################
+#+--------------------------------------------------------------+#
+#|                    Graser Network Zombies                    |#
+#|                 - Created by: Teddeh (2016) -                |#
+#+--------------------------------------------------------------+#
+##################################################################
+
+WEAPONS:
+  # --- SHOTGUNS ---#
+  SHOTGUNS:
+    M1216:
+      Ammo: 16-84
+      Pack-a-punch: "Mesmerizer"
+        Ammo: 24-72
+    Remington870:
+      Ammo: 6-48
+      Pack-a-punch: "Mechanical Cranium Splitter"
+        Ammo: 10-70
+    S12:
+      Ammo: 10-30
+      Pack-a-punch: "Synthetic Dozen"
+        Ammo: 10-50
+
+  # --- ASSULT RIFLES ---#
+  ASSULT_RIFLES:
+    AK-47:
+      Ammo: 30-240
+      Pack-a-punch: "Reznov's Revenge"
+        Ammo: 30-270
+    M1927: #Tommy gun
+      Cost: 1500
+      Ammo: 50-350
+      Pack-a-punch: "Speakeasy"
+        Ammo: 50-400
+    Galil:
+      Ammo: 35-315
+      Pack-a-punch: ""
+        Ammo: 35-490
+    AN-94:
+      Cost: 1200
+      Ammo: 30-300
+      Pack-a-punch: "Actuated Neutralizer 94000"
+        Ammo: 50-600
+        Attachments:
+        - Reflex Sight
+    M8A1:
+      Ammo: 32-192
+      Pack-a-punch: "Micro Aerator"
+        Ammo: 42-336
+    M27:
+      Ammo: 30-240
+      Pack-a-punch: "Mystifier"
+        Ammo: 30-360
+    MTAR:
+      Ammo: 30-240
+      Pack-a-punch: "Malevolent Toxonomic Anodized Redeemer"
+        Ammo: 30-360
+    SMR:
+      Ammo: 20-140
+      Pack-a-punch: "SM1l3R"
+        Ammo: 30-390
+    Type 25:
+      Ammo: 30-150
+      Pack-a-punch: "Strain 25"
+        Ammo: 30-270
+
+  # --- SUB MACHINES ---#
+  SUB_MACHINES:
+    AK-74u:
+      Cost: 1200
+      Ammo: 20-160
+      Pack-a-punch: "AK74fu2"
+        Ammo: 40-280
+    Chicom CQB:
+      Ammo: 40-120 #3 round birst
+      Pack-a-punch: "Cataclismic Quadruple Burst"
+        Ammo: 40-200 #4 round birst
+    PDW-57:
+      Cost: 1000
+      Ammo: 50-200
+      Pack-a-punch: "Predictive Death Wish 57000"
+        Ammo: 50-350
+    UZI:
+      Ammo: 25-275
+      Pack-a-punch: "Uncle Gal"
+        Ammo: 25-300
+
+  # --- Light Machine ---#
+  LIGHT_MACHINES:
+    HAMR:
+      Ammo: 125-375
+      Pack-a-punch: "SLDG HAMR"
+        Ammo: 125-625
+    LSAT:
+      Ammo: 100-400
+      Pack-a-punch: "FSIRT"
+        Ammo: 100-600
+
+  # --- PISTOLS ---#
+  PISTOLS:
+    B23R:
+      Ammo: 15-105
+      Pack-a-punch: "B34R"
+        Ammo: 20-180
+    Executioner:
+      Ammo: 5-75
+      Pack-a-punch: "Voice of Justice"
+        Ammo: 5-100
+    Five-seven:
+      Ammo: 20-120
+      Pack-a-punch: "Ultra & Voilet"
+        Ammo: 20/20-295
+        Attachments:
+        - Duel Wield
+    KAP-40:
+      Ammo: 12-96
+      Pack-a-punch: "Karmic Atom Perforator-4000"
+        Ammo: 15-180
+    M1911:
+      Ammo: 8-80
+      Pack-a-punch: "Mustang and Sally"
+        Ammo: 8-80
+        Attachments:
+        - Duel Wield
+
+  # --- SPECIAL WEAPONS ---#
+  SPECIAL_WEAPONS:
+    Ballistic Knife:
+      Ammo: 1-4
+      Pack-a-punch: "The Krause Refribrillator"
+        Ammo: 1-9
+    Death_Machine:
+      Ammo: 100-200
+      Pack-a-punch: "Meat Grinder"
+        Ammo: 200-400
+    Ray_Gun:
+      Ammo: 20-160
+      Pack-a-punch: "Porter's X2 Ray Gun"
+        Ammo: 40-200
+    Ray_Gun_Mark_II:
+      Ammo: 21-162
+      Pack-a-punch: "Porter's Mark II Ray Gun"
+        Ammo: 42-201
+
+  # --- SNIPERS ---#
+  SNIPERS:
+    Barrett M82A1:
+      Ammo: 5-30
+      Pack-a-punch: "Macro Annihilator"
+        Ammo: 7-42
+    DSR_50:
+      Ammo: 4-48
+      Pack-a-punch: "Dead Specimen Reactor 5000"
+        Ammo: 8-96
+    SVU-AS:
+      Ammo: 12-48
+      Pack-a-punch: "Shadowy Veil Utilizer"
+        Ammo: 12-192
+
+  # --- LAUNCHERS ---#
+  LAUNCHERS:
+    RPG:
+      Ammo: 1-20
+      Pack-a-punch: "Rocket Propelled Grievance"
+        Ammo: 8-40
+    War_Machine:
+      Ammo: 6-6
+      Pack-a-punch: "Dystopic Demolisher"
+        Ammo: 6-48
+
+  # --- WONDER WEAPONS ---#
+  WONDER_WEAPONS:
+    Blundergat: #shoots 3 shells per bullet
+      Ammo: 2-40
+      Pack-a-punch: "The Sweeper"
+        Ammo: 2-120
+      EasterEgg: "ACIDGAT"
+        Ammo: 3-90
+    Paralyzer:
+      Ammo: 100
+      Pack-a-punch: "Petrifier"
+        Ammo: 150
+
+  # --- MELEE ---#
+  MELEE:
+    Bowie Knife:
+      Cost: 3000
+    Galvaknuckles:
+      Cost: 6000
+
+  # --- LETHAL ---#
+  LETHAL:
+    Claymore:
+      Cost: 1000
+      Ammo: 2
+    EMP_Grenade:
+      Ammo: 4
+    Monkey_Bomb:
+      Ammo: 4
+    Semtex:
+      Ammo: 4
+    Frag_Grenade:
+      Ammo: 4
+
+PERKS: #Max-Buyable - 4
+  DOUBLE_TAP:
+    Cost: 2000
+  ELECTRIC_CHERRY:
+    Cost: 2000
+  JUGGER-NOG:
+    Cost: 2500
+  MULE_KICK:
+    Cost: 4000
+  PHD_FLOPPER:
+    Cost: 2000
+  QUICK_REVIVE:
+    Cost: 1500
+  SPEED_COLA:
+    Cost: 3000
+  TOMBSTONE:
+    Cost: 2500
+  WHO'S_WHO:
+    Cost: 2500
+  VULTURE_AID:
+    Cost: 3000
+
+POWER_UPS:
+  DOUBLE_POINTS:
+    Duration: 30
+  INSTA_KILL:
+    Duration: 30
+  MAX_AMMO:
+  CARPENTER:
+  NUKE:
+  BANK_POINTS:
+  FIRE_SALE:
+    Duration: 30
+  PERK_BOTTLE:
+
+CREATURES:
+  ZOMBIE:
+  BRUTUS:
+  HELLHOUND:

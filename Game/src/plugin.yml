@@ -1,0 +1,5 @@
+name: Game
+main: com.grasernetwork.game.GamePlugin
+author: [Backups, TiddleeDoo]
+version: 1.0.0
+description: The game plugin of the graser networks.

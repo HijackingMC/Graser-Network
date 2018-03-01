@@ -1,0 +1,4 @@
+name: Build
+main: com.grasernetwork.build.Build
+author: [Invalidate, TiddleeDoo]
+version: 1.0.0

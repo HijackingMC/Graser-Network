@@ -1,0 +1,5 @@
+name: Lobby
+main: com.grasernetwork.lobby.Lobby
+author: [Invalidate, TiddleeDoo]
+version: 1.0.0
+description: The lobby plugin of the graser networks.
